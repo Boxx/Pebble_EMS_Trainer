@@ -1,17 +1,27 @@
 {
-  "uuid": "3b457d1d-d7f3-4d89-92f6-c2271b3b4451",
-  "shortName": "ems_trainer",
-  "longName": "ems_trainer",
-  "companyName": "MakeAwesomeHappen",
-  "versionCode": 1,
-  "versionLabel": "1.0",
-  "watchapp": {
-    "watchface": false
-  },
-  "appKeys": {
-    "dummy": 0
-  },
-  "resources": {
-    "media": []
-  }
+    "appKeys": {
+        "dummy": 0
+    },
+    "capabilities": [
+        ""
+    ],
+    "companyName": "MakeAwesomeHappen",
+    "longName": "ems_trainer",
+    "projectType": "native",
+    "resources": {
+        "media": [
+            {
+                "file": "images/EMS75.png",
+                "name": "EMS_SPLASH",
+                "type": "png-trans"
+            }
+        ]
+    },
+    "shortName": "ems_trainer",
+    "uuid": "3b457d1d-d7f3-4d89-92f6-c2271b3b4451",
+    "versionCode": 1,
+    "versionLabel": "1.0",
+    "watchapp": {
+        "watchface": false
+    }
 }
