@@ -1,2 +1,3 @@
-void splash_init(void);
+void show_splash(void);
+void hide_splash(void);
 void splash_deinit(void);

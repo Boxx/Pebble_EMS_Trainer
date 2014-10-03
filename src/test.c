@@ -1,3 +1,4 @@
+#include "test.h"
 #include "splash.h"
 #include "menu.h"
 #include <pebble.h>
@@ -43,7 +44,7 @@ static void handle_window_unload(Window* window) {
   destroy_ui();
 }
 
-void show_splash(void) {
+void show_test(void) {
   initialise_ui();
   window_set_window_handlers(s_window, (WindowHandlers) {
     .unload = handle_window_unload,
@@ -52,10 +53,10 @@ void show_splash(void) {
   window_stack_push(s_window, true);
 }
 
-void hide_splash(void) {
+void hide_test(void) {
   window_stack_remove(s_window, true);
 }
 
-void splash_deinit(void){
+void test_deinit(void){
   window_destroy(s_window);
 }
