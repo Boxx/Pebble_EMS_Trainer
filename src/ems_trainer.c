@@ -11,7 +11,7 @@ static void init(void) {
 }
 
 static void deinit(void) {
-  hide_splash();
+  splash_deinit();
   menu_deinit();
   hide_test();
 }

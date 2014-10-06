@@ -26,7 +26,7 @@ static void initialise_ui(void) {
 
 static void destroy_ui(void) {
   window_destroy(s_window);
-//   text_layer_destroy(s_textlayer_1);
+  text_layer_destroy(s_textlayer_1);
   bitmap_layer_destroy(s_bitmaplayer_2);
 }
 // END AUTO-GENERATED UI CODE
@@ -58,4 +58,6 @@ void hide_splash(void) {
 
 void splash_deinit(void){
   window_destroy(s_window);
+  text_layer_destroy(s_textlayer_1);
+  bitmap_layer_destroy(s_bitmaplayer_2);
 }
